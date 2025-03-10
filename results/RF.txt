@@ -1,0 +1,5 @@
+Total Accuracy :  95.51
+recall : 0.9711538461538461
+Precision : 0.9619047619047619
+Sensitivity :  0.92
+Specificity :  0.97

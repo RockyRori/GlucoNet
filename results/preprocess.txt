@@ -1,0 +1,28 @@
+Count of cases: Positive    320
+Negative    200
+Name: class, dtype: int64
+Age                   0.106419
+Gender               -0.449233
+Polyuria              0.665922
+Polydipsia            0.648734
+sudden weight loss    0.436568
+weakness              0.243275
+Polyphagia            0.342504
+Genital thrush        0.110288
+visual blurring       0.251300
+Itching              -0.013384
+Irritability          0.299467
+delayed healing       0.046980
+partial paresis       0.432288
+muscle stiffness      0.122474
+Alopecia             -0.267512
+Obesity               0.072173
+dtype: float64
+Distribution of traget variable in training dataset
+1    256
+0    160
+Name: class, dtype: int64
+Distribution of traget variable in test dataset
+1    64
+0    40
+Name: class, dtype: int64
