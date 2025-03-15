@@ -35,3 +35,7 @@ A user-friendly interface for healthcare professionals to use the model in real-
 
 <img width="596" alt="app" src="https://github.com/user-attachments/assets/5140acb9-e1c7-40ee-ba59-b19c8db35e15" />
 
+The predicted result after filling in each option are as follows：
+
+<img width="642" alt="pre" src="https://github.com/user-attachments/assets/3842db75-5238-4a87-9b3b-bbdf4eb76cc3" />
+
