@@ -72,7 +72,7 @@ def get_data():
              Healing, Paresis, Stiffness, Alopecia, Obesity]]
 
         # Use the model to make a prediction based on the values
-        result = clf.predict(newpat)
+        result = model.predict(newpat)
 
         # If the prediction is 1, then the user has diabetes
         if result == 1:
@@ -82,7 +82,7 @@ def get_data():
             val = "No Diabetes"
 
     # Render the HTML template with the result
-    return render_template('/templates/index.html', value=val)
+    return render_template('index.html', value=val)
 
 
 if __name__ == '__main__':
