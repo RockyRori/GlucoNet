@@ -1,4 +1,5 @@
 # GlucoNet
+
 LU CDS524 Project GlucoNet Team
 
 Data Preprocessing:
@@ -15,6 +16,10 @@ Conduct exploratory data analysis to understand data distributions and correlati
 
 run python preprocess.py
 
+```bash
+python wsgi.py
+```
+
 Machine Learning Model Development:
 
 Logistic Regression.
@@ -29,7 +34,8 @@ python RF.py
 
 python DT.py
 
-A user-friendly interface for healthcare professionals to use the model in real-world settings: run python interface.py, and the results will be shown as following:
+A user-friendly interface for healthcare professionals to use the model in real-world settings: run python interface.py,
+and the results will be shown as following:
 
 <img width="804" alt="interface" src="https://github.com/user-attachments/assets/8f966479-f2cb-45a9-b822-aba811256d7d" />
 

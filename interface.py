@@ -14,7 +14,7 @@ from flask import Flask, redirect, url_for, request, render_template
 # Define a flask app
 app = Flask(__name__)
 
-model=pickle.load(open('model.pkl','rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 print('Model loaded. Start serving...')
 
@@ -71,22 +71,24 @@ def get_data():
         Stiffness = request.form['Stiffness']
         Alopecia = request.form['Alopecia']
         Obesity = request.form['Obesity']
-        
+
         # Create a new list with the values from the form
-        newpat = [[age,gender,Polyuria,Polydipsia,Weight,Weakness,Polyphagia,Thrush,Blurring,Itching,Irritability,Healing,Paresis,Stiffness,Alopecia,Obesity]]
-        
+        newpat = [
+            [age, gender, Polyuria, Polydipsia, Weight, Weakness, Polyphagia, Thrush, Blurring, Itching, Irritability,
+             Healing, Paresis, Stiffness, Alopecia, Obesity]]
+
         # Use the model to make a prediction based on the values
         result = clf.predict(newpat)
-        
+
         # If the prediction is 1, then the user has diabetes
         if result == 1:
             val = "Diabetes"
         # Otherwise, the user does not have diabetes
         else:
             val = "No Diabetes"
-            
+
     # Render the HTML template with the result
-    return render_template('/templates/index.html',value=val)
+    return render_template('/templates/index.html', value=val)
 
 
 if __name__ == '__main__':
