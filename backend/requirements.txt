@@ -1,0 +1,17 @@
+# Core dependencies
+fastapi
+uvicorn
+
+# Data processing
+pandas
+numpy
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Pydantic for data validation
+pydantic
+
+# CORS Middleware for FastAPI (allows frontend connection)
+starlette
