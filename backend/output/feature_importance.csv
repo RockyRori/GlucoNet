@@ -1,0 +1,32 @@
+Feature,Importance
+Polyuria,0.34951597
+Gender,0.09871761
+Polydipsia,0.095515236
+Glucose,0.04951855
+Cr,0.04501477
+Chol,0.04463698
+Urea,0.043795224
+VLDL,0.026894828
+HbA1c,0.025027154
+Irritability,0.01853911
+Alopecia,0.018235877
+Pregnancies,0.017379487
+sudden weight loss,0.014544707
+BMI,0.014458563
+SkinThickness,0.012836048
+delayed healing,0.012483857
+Age,0.011303798
+Genital thrush,0.0106025925
+visual blurring,0.009966783
+DiabetesPedigreeFunction,0.009956964
+partial paresis,0.009447047
+muscle stiffness,0.009434134
+Obesity,0.008968278
+Polyphagia,0.0089390995
+Insulin,0.0088923955
+BloodPressure,0.00835916
+Itching,0.007080429
+weakness,0.0060118577
+LDL,0.003923552
+HDL,0.0
+TG,0.0
